@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 
 export default ({ title, children }) => (
   <article className='pa3 pa5-ns'>
@@ -7,6 +8,10 @@ export default ({ title, children }) => (
   </article>
 )
 
-export const ListItem = ({ children }) => (
-  <li className='ph3 pv3 bb b--light-silver' children={children} />
-)
+export const ListItem = ({ isDone, children }) => {
+  const cx = classNames('pa3 bb b--light-silver', {
+    'o-80 strike mid-gray bg-near-white': isDone
+  })
+
+  return <li className={cx} children={children} />
+}
