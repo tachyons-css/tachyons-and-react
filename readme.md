@@ -8,7 +8,7 @@ This project will document (with code examples) how to integrate and use Tachyon
 - [Getting Started](https://github.com/johnotander/tachyons-and-react/tree/master/getting-started)
 - Components
   - Functional and composable
-  - Managing classes based on `props` or `state`
+  - [Managing classes based on `props` or `state`](https://github.com/johnotander/tachyons-and-react/tree/master/managing-classes)
 - Modules
   - Customizing Tachyons modules
   - Importing subsets of Tachyons modules
