@@ -3,6 +3,15 @@
 Tachyons integrates seamlessly with component libraries, and React is no exception.
 This tutorial will outline getting started using Tachyons in a React app and assumes a node installation.
 
+***
+
+> In order to keep things succinct and focused around a basic Tachyons + React build this example will only use `create-react-app` defaults and not modify webpack directly.
+> It will illustrate using the `tachyons-cli` and `create-react-app` in tandem for a pretty straightforward config.
+> More in depth tutorials will follow that illustrate modifying webpack config directly for a more seamless build.
+***
+
+So, let's get started :sunglasses:.
+
 ## Installation
 
 Firstly, check to make sure that node is installed and npm is up to date.
@@ -66,9 +75,9 @@ mkdir src/css
 echo '@import "tachyons";' > src/css/app.css
 ```
 
-###### An aside:
+###### An aside
 
-In an effort to not use `create-react-app`'s `eject` command we've opted to use the `tachyons-cli` to build or css and create the `src/index.css` imported by the config. Currently this is the most straightforward way to use `postcss-import` [[1]](https://github.com/facebookincubator/create-react-app/issues/78).
+> In an effort to not use `create-react-app`'s `eject` command we've opted to use the `tachyons-cli` to build or css and create the `src/index.css` imported by the config. Currently this is the most straightforward way to use `postcss-import` [[1]](https://github.com/facebookincubator/create-react-app/issues/78).
 
 ##### Create a css build script
 
