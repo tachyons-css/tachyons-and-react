@@ -80,7 +80,7 @@ Using the cli and npm scripts we can add `css` script.
   "devDependencies": {
     "react-scripts": "0.4.3"
   },
-  "dependencies": "{ ... }"
+  "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
 		"tachyons": "^4.5.2",
