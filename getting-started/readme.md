@@ -49,6 +49,8 @@ And remove the following line from `src/App.js`:
 import './App.css';
 ```
 
+[DIFF](https://github.com/johnotander/tachyons-and-react/commit/d5f6762683556b1ce3aa706341596ea55cfbd724)
+
 ##### Integrating tachyons
 
 After we achieve a clean css slate we can install `tachyons` and the `tachyons-cli` as a dependency.
@@ -129,6 +131,8 @@ Rad! Now everytime the project is run or built, our css is rebuilt.
 Also, since we've imported `tachyons` in `src/css/app.css` it will be imported from `node_modules`.
 This is especially useful down the road because updating `tachyons` becomes seamless: `npm update tachyons && npm run css`.
 
+[DIFF](https://github.com/johnotander/tachyons-and-react/commit/22deea9bc5cf9fcb8fed7bd68629c3d67e9b17f7)
+
 ###### Rebuild css on changes
 
 With our existing implementation we're still missing one key piece.
@@ -189,6 +193,8 @@ class App extends Component {
 
 export default App
 ```
+
+[DIFF](https://github.com/johnotander/tachyons-and-react/commit/2d7b2f85ea3564d1b5c4b4827678b9ad00d4de0c)
 
 ##### Did it work?
 
