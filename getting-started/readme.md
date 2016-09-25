@@ -48,7 +48,7 @@ npm start
 If everything works correctly we can remove the default css since we won't be using it.
 
 ```
-rm src/App.css index.css
+rm src/App.css src/index.css
 ```
 
 And remove the following line from `src/App.js`:
